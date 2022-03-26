@@ -1,0 +1,25 @@
+
+
+#courses {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#courses>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  #courses {
+    flex-direction: column;
+  }
+}
+
+
+
+

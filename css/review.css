@@ -1,0 +1,22 @@
+
+
+#learntech {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#learntech >div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  #learntech {
+    flex-direction: column;
+  }
+}
+
+

@@ -1,0 +1,22 @@
+
+#medsupports {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#medsupports>div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+@media (max-width: 800px) {
+  #medsupports {
+    flex-direction: column;
+  }
+}
+
+
