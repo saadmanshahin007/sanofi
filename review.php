@@ -22,7 +22,45 @@
   </div>
 
   <h1 style="text-align:center">Reviews</h1>
+  <section id="medsupports">
 
+<div class="medsupport1">
+  <img id="medimg" src="images/read.jpg">
+  <div class="text">
+    <h1>Review Details</h1>
+    <p>It will show Review database</p>
+    <a class="Reviewcrud" href="showReview.php" target="_blank">Show Reviews</a>
+  </div>
+</div>
+
+<div class="medsupport2">
+  <img id="medimg" src="images/add.jpg">
+  <div class="text2">
+    <h1>Review Adds</h1>
+    <p>It will add new Review</p>
+    <a class="Reviewcrud" href="product_add.php" target="_blank">Add Reviews</a>
+  </div>
+</div>
+
+<div class="medsupport3">
+  <img id="medimg" src="images/delete.jpg">
+  <div class="text3">
+    <h1>Review Deletes</h1>
+    <p>It will delete expired Review</p>
+    <a class="Reviewcrud" href="product_display.php" target="_blank">Delete Reviews</a>
+  </div>
+</div>
+
+<div class="medsupport4">
+  <img id="medimg" src="images/update.jpg">
+  <div class="text3">
+    <h1>Review Updates</h1>
+    <p>It will update Review data</p>
+    <a class="Reviewcrud" href="product_display.php" target="_blank">Update Reviews</a>
+  </div>
+</div>
+
+</section>
 
   <hr>
   <div class="footer">
